@@ -221,7 +221,7 @@ export const abi = [
     },
     {
         "inputs": [],
-        "name": "maxTokenId",
+        "name": "maxTokenIds",
         "outputs": [
             {
                 "internalType": "uint256",
@@ -230,6 +230,13 @@ export const abi = [
             }
         ],
         "stateMutability": "view",
+        "type": "function"
+    },
+    {
+        "inputs": [],
+        "name": "mint",
+        "outputs": [],
+        "stateMutability": "payable",
         "type": "function"
     },
     {
@@ -574,4 +581,4 @@ export const abi = [
         "type": "receive"
     }
 ]
-export const NFT_CONTRACT_ADDRESS = "0xCeCe9f82CC24f96129c1EC59c4875E778231a235"
+export const NFT_CONTRACT_ADDRESS = "0xB916c28D99820c42291554197bb5107a1bDDD105"
